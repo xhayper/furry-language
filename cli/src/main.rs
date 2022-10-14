@@ -1,3 +1,6 @@
+use parser::Parser;
+
 fn main() {
-    println!("Hello, world!");
+    let parser = Parser::new();
+    parser.parse("Hello, world!".to_string());
 }
